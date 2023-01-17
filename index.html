@@ -1,9 +1,86 @@
+<!DOCTYPE html>
+
 <html>
- 
-<body>
-  <h1>Codecadamy tutorial</h1>
-  <p>onderweg naar een nieuw leven!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav>
+      <h1 class="nav-head"><a href="#top">My Style Guide</a></h1>
+      <ul class="nav">
+        <li class="nav-color"><a href="#color-container">color</a></li>
+        <li class="nav-fonts"><a href="#font-container">fonts</a></li>
+        <li class="nav-styling"><a href="#style-container">styling</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div id="color-container">
+        <h2>Color</h2>
+        <p>Hover over the dots to see the color and hex code!</p>
+        <div class="color-panel blue">
+          <p class="color-label">Blue</p>
+          <p class="color-code">#33A5FF</p>
+        </div>
+        <div class="color-panel red">
+          <p class="color-label">Red</p>
+          <p class="color-code">#FF3333</p>
+        </div>
+        <div class="color-panel magenta">
+          <p class="color-label">Magenta</p>
+          <p class="color-code">#DA33FF</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div id="font-container">
+        <h2>Fonts</h2>
+        <p>Interact (hover and click) on the fonts and texts to see different styles!</p>
+        <div class="font-panel">
+          <p class="font-label source-code-pro">Source Code Pro</p>
+          <p class="regular source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+        <div class="font-panel">
+                    <p class="font-label nunito-sans">Nunito Sans</p>
+          <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div id="style-container">
+        <h1>Styles</h1>
+        <table>
+            <tr>
+              <th>Headers: </th>
+              <td><h1>H1 example</h1></td>
+              <td><h2>H2 example</h2></td>
+              <td><h3>H3 example</h3></td>
+            </tr>
+            <tr>
+              <th>Properties: </th>
+              <td><p>Paragraph</p></td>
+              <td><b>Bold</b></td>
+              <td><i>Italic</i></td>
+            </tr>
+            <tr>
+              <th>Alignment: </th>
+              <td align="left">Left</td>
+              <td align="center">Center</td>
+              <td align="right">Right</td>
+            </tr>
+        </table>
+      </div>
+    </div>    
+
+  </body>
+
+  <footer>
+    <h5>Made by Rob,<br>17-01-2023</h5>
+  </footer>
+
 </html>

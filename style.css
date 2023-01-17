@@ -1,0 +1,182 @@
+body {
+  background-color: #c7c5f0;
+  font-family: Helvetica;
+  color: #08062b;
+}
+
+
+/* navigation */
+
+
+nav {
+  font-family: "source code pro"; 
+  background-color: #08062b;
+  color: #c7c5f0;
+  border: 1px solid #c7c5f0;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0% 5%;
+  margin: 0% 5%;
+  top: 0px;
+  position: sticky;
+}
+
+nav a {
+  color: #c7c5f0;  
+  text-decoration: none;
+}
+
+.nav-head a:hover {
+  color: #FFFFFF;
+}
+
+.nav a {
+  color: #c7c5f0;  
+  text-decoration: none;
+  padding: 0% 3%;
+}
+
+.nav li {
+  display: inline;
+  text-align: center;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav li::before, li+li::before {
+  content: "[";
+}
+
+.nav li::after {
+  content: "]";
+}
+
+.nav-color a:hover {
+  color: #DA33FF;
+}
+
+.nav-fonts a:hover {
+  text-transform: uppercase;
+}
+
+.nav-styling a:hover {
+  font-style: italic;
+}
+
+
+/* main color */
+
+
+.container {
+  border: solid 1px #ffffff;
+  border-radius: 15px;
+  padding: 0% 5% 5% 5%;
+  margin: 5%;
+}
+
+.color-panel {
+  margin: 1px;
+  border-radius: 200px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #08062b;
+  border: solid 1px #08062b;
+}
+
+.blue:hover {
+  background-color: #33A5FF;
+}
+
+.red:hover {
+  background-color: #FF3333;
+}
+
+.magenta:hover {
+    background-color: #DA33FF;
+}
+
+.color-label {
+  color: #c7c5f0;
+}
+
+.color-code {
+  color: #08062b;
+}
+
+
+/* main fonts */
+
+
+.font-panel {
+  border: dotted 4px #ffffff;
+  border-radius: 15px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.font-panel:hover {
+  border: dotted 4px #08062b;
+}
+
+.source-code-pro {
+  font-family: "source code pro"; 
+}
+
+.nunito-sans {
+  font-family: "nunito sans";
+}
+
+.font-label {
+  text-transform: uppercase;
+}
+
+.font-label:hover {
+  text-transform: lowercase;
+}
+
+.font-label:active {
+  text-decoration-line: overline underline;
+}
+
+.regular {
+  text-transform: none;
+}
+
+.regular:active {
+  font-weight: bold;
+}
+
+.regular:hover {
+  font-style: italic;
+}
+
+
+/* main styles */
+
+
+table {
+  border: solid 1px #fff; 
+  border-collapse: collapse;
+} 
+
+th {
+  border-right: solid 1px #fff; 
+  border-bottom: solid 1px #fff;
+}
+
+td {
+  border: dashed 1px #fff; 
+}
+
+
+/* footer */
+
+
+footer {
+  text-align: right; 
+}
